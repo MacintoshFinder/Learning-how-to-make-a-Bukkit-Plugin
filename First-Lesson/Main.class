@@ -1,0 +1,15 @@
+package net.minecraft.main //change net.minecraft.main to anything you want
+ 
+import org.bukkit.plugin.java.JavaPlugin;
+ 
+public final class tutorial plugin extends JavaPlugin { //makes java know that your making a plugin
+    @Override //simply overrides
+    public void onEnable() { //Enable code in order to start class file.
+        // Code in here happens when plugin's onEnable is executed.
+    }
+ 
+    @Override
+    public void onDisable() { //Disable code in order to disable all code of the class file.
+        // Code in here happends when the disable code gets executed.
+    }
+}
